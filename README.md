@@ -49,12 +49,12 @@ If everything went well, you should see the following message in your terminal:
 
 Then you can point your browser to the `http://localhost:<port>`
 
-There is also a folder [`demos/modal-responsive-demo/public`](demos/modal-responsive-demo/public`) that contains a pure static html page that will demonstrate the
-the responsiveness of the modal using the library showPopUpModal located at [`demos/modal-responsive-demo/public/javascripts/showPopUpModal.js`]
+There is also a folder [`demos/responsive-modal-demo`](demos/responsive-modal-demo`) that contains a pure static html page that will demonstrate the
+the responsiveness of the modal using the library showPopUpModal located at [`demos/responsive-modal-demo/javascripts/showPopUpModal.js`]
 
 ### Running the Modal Responsive Demo
 
-[path] = [`modal-responsive-demo/public`](demos/modal-responsive-demo/public`)
+[path] = [`demos/responsive-modal-demo`](demos/responsive-modal-demo)
 [options] = p - <port>
 
 npx [http-server](https://www.npmjs.com/package/http-server) [path] [options]
