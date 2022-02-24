@@ -1,0 +1,27 @@
+iframe {
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    border-style: none;
+    border: 0
+}
+
+#cardNumber {
+    padding: 0.5rem;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    line-height: 1.375;
+    border-width: 0.5px;
+    overflow: visible;
+    box-sizing: border-box;
+    border: 0 solid #afafaf;
+    margin: 0;
+    position: absolute;
+    bottom: 115px;
+    right: 62%;
+    bottom: 226px;
+    left: 350px;
+    padding-top: 0rem;
+    color: -internal-light-dark(black, white);
+    display: none;
+}

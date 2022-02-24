@@ -6,8 +6,8 @@ export const iframeOptions = (
 	res: Response,
 	next: NextFunction
 ) => {
-	const iframeReferrer = req.headers.referer;
-	const apiKey: string = (req.query?.api_key || '') as string;
+	const iframeReferrer = req?.headers?.referer;
+	const apiKey: string = (req?.query?.api_key || '') as string;
 
 	// Note: this should be fetch from invoice settings
 	// This was only used for demo purpose only
